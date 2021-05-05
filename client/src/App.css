@@ -1,0 +1,46 @@
+* {
+  background-color: #2f3135;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.information input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  background-color: #141621;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.information button {
+  width: 300px;
+  height: 50px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #080910;
+  border-radius: 10px;
+}
+
+.information button:hover {
+  transform: scale(1.05);
+  transition: all 0.4s linear;
+}
