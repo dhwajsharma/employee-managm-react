@@ -89,7 +89,7 @@ function App() {
               <input
                 className="input"
                 type="text"
-                placeholder="2000..."
+                placeholder="Wage"
                 onChange={(event) => {
                   setNewWage(event.target.value);
                 }}
