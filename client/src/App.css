@@ -29,7 +29,19 @@
   margin: 5px;
 }
 
-.information button {
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.btn {
   width: 300px;
   height: 50px;
   margin-top: 15px;
@@ -40,7 +52,28 @@
   border-radius: 10px;
 }
 
-.information button:hover {
+.btn:hover {
   transform: scale(1.05);
   transition: all 0.4s linear;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.employee {
+  width: 700px;
+  height: auto;
+  border: 1px solid #363a3f;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: monospace;
+}
+
+.employee h3 {
+  margin: 20px;
 }
