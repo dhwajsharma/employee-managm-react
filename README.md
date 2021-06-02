@@ -10,8 +10,6 @@
 
 - cd employee-managm-react
 
-- npm install
-
 ### To run client side code:
 
 - cd client
